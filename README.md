@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5e2ce6ac-903c-4ecb-ad96-aaccabf0dc62)These projects are created for the iNeuBytes Virtual Internship Program [July, 2024]
+These projects are created for the iNeuBytes Virtual Internship Program [July, 2024]
 
 TASK 1 ---BEAUTY_PRODUCT
 The task is to create a landing page on any beauty care product.
@@ -31,7 +31,7 @@ The technologies that were asked to use are:
 					2. CSS
                  			3. JavaScript
                  			4. Responsive Design 
-                  			5. Web APIs**
+                  			5. Web APIs
 I understand that the clone-based project created by me is intended solely for educational purposes.
 
 
