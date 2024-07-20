@@ -32,8 +32,9 @@ The technologies that were asked to use are:
                  			3. JavaScript
                  			4. Responsive Design 
                   			5. Web APIs
-I understand that the clone-based project created by me is intended solely for educational purposes.
-
+		     
+**I understand that the clone-based project created by me is intended solely for educational purposes.
+**
 
 
 
