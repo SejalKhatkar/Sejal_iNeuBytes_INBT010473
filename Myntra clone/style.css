@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo img {
+  height: 40px;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #3e4152;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.new-badge {
+  color: #ff3e6c;
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: 20px;
+}
+
+.navbar-search input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 500px;
+  font-size: 14px;
+}
+
+.navbar-search button {
+  position: absolute;
+  right: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-icons {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-icons li {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icons a {
+  text-decoration: none;
+  color: #3e4152;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icons img {
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar-search {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .navbar-search input {
+    width: calc(100% - 40px);
+  }
+
+  .navbar-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+
+.carousel-container {
+  margin: 0 auto;
+}
+.carousel-slide {
+  display: flex !important;
+}
+.carousel-item {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.text-banner-title {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.banner {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: .15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.footed {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: start;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 10px;
+}
+.homeImg {
+  width: 100%;
+  height: auto;
+}
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section2 img {
+  flex: 1;
+  min-width: 45%;
+  margin: 5px;
+}
+
+.itemImg {
+  width: 250px;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .itemImg {
+    max-width: 80px;
+  }
+}
+
+.tall {
+  width: 100vw;
+}
+
+footer {
+  background: #f5f5f5;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0px -1px 5px rgba(0,0,0,0.1);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin: 20px;
+  flex: 1;
+}
+
+.footer-section h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.app-links img,
+.social-links img {
+    margin: 10px; 
+    width: 120px; 
+}
+
+.social-links img { 
+  width: auto; 
+}
+
+.popular-searches {
+  margin: 20px;
+  font-size: 12px;
+  color: #888;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-size: 12px;
+  color: #888;
+}
+
+.footer-bottom a {
+  color: #888;
+  text-decoration: none;
+}
+
+.footer-description {
+  margin: 20px;
+  font-size: 12px;
+  color: #888;
+}
